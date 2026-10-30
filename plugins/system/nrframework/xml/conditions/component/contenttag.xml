@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="general">
+        <field name="operator" type="comparator"/>
+        <field name="value" type="tag"
+            label="NR_ARTICLE_TAGS"
+            description="NR_ARTICLE_TAGS_DESC"
+            multiple="true"
+            mode="nested"
+            custom="deny"
+        />
+    </fieldset>
+</form>

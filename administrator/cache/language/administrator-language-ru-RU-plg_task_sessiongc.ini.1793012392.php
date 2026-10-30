@@ -1,0 +1,12 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_TASK_SESSIONGC' => 'Задача - Удаление данных сессии',
+  'PLG_TASK_SESSIONGC_DESC' => 'Задача для удаления устаревших данных и метаданных сессии из базы данных.',
+  'PLG_TASK_SESSIONGC_ENABLE_SESSION_GC_DESC' => 'Включить или отключить функцию удаления устаревших данных сессии.',
+  'PLG_TASK_SESSIONGC_ENABLE_SESSION_GC_LABEL' => 'Удалять данные сессии',
+  'PLG_TASK_SESSIONGC_ENABLE_SESSION_METADATA_GC_DESC' => 'Включить или отключить функцию удаления метаданных сессии. Использование параметра невозможно, если в общих настройках сайта для параметра <strong>Обработчик сессии</strong> установлено значение <strong>База данных</strong>, так как данные будут удаляться как часть процесса удаления данных сессии.',
+  'PLG_TASK_SESSIONGC_ENABLE_SESSION_METADATA_GC_LABEL' => 'Удалять метаданные сессии',
+  'PLG_TASK_SESSIONGC_TITLE' => 'Удаление данных сессии',
+  'PLG_TASK_SESSIONGC_XML_DESCRIPTION' => 'Плагин для удаления устаревших данных и метаданных сессии из базы данных.',
+);

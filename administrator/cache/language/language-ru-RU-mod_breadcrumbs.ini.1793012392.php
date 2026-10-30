@@ -1,0 +1,13 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'MOD_BREADCRUMBS' => 'Навигатор',
+  'MOD_BREADCRUMBS_FIELD_HOMETEXT_DESC' => 'Введите заголовок первого пункта (главной страницы) в строке навигатора сайта. Если поле оставить пустым, будет использоваться значение по умолчанию (Главная).',
+  'MOD_BREADCRUMBS_FIELD_HOMETEXT_LABEL' => 'Заголовок страницы',
+  'MOD_BREADCRUMBS_FIELD_SHOWHERE_LABEL' => 'Строка "Вы здесь"',
+  'MOD_BREADCRUMBS_FIELD_SHOWHOME_LABEL' => 'Первый пункт',
+  'MOD_BREADCRUMBS_FIELD_SHOWLAST_LABEL' => 'Последний пункт',
+  'MOD_BREADCRUMBS_HERE' => 'Вы здесь: ',
+  'MOD_BREADCRUMBS_HOME' => 'Главная',
+  'MOD_BREADCRUMBS_XML_DESCRIPTION' => 'Модуль для отображения пути от главной до текущей страницы в строке навигатора сайта.',
+);

@@ -1,0 +1,13 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_FIELDS_LIST' => 'Поля - Список элементов',
+  'PLG_FIELDS_LIST_LABEL' => 'Список элементов (%s)',
+  'PLG_FIELDS_LIST_PARAMS_HEADER_DESC' => 'Введите заголовок для отображения в верхней позиции выпадающего списка (например, <strong>Выбор элемента</strong>).',
+  'PLG_FIELDS_LIST_PARAMS_HEADER_LABEL' => 'Заголовок',
+  'PLG_FIELDS_LIST_PARAMS_MULTIPLE_LABEL' => 'Мультивыбор',
+  'PLG_FIELDS_LIST_PARAMS_OPTIONS_LABEL' => 'Элементы списка',
+  'PLG_FIELDS_LIST_PARAMS_OPTIONS_NAME_LABEL' => 'Заголовок',
+  'PLG_FIELDS_LIST_PARAMS_OPTIONS_VALUE_LABEL' => 'Значение',
+  'PLG_FIELDS_LIST_XML_DESCRIPTION' => 'Плагин для создания полей типа <strong>Список элементов</strong> в расширениях, в которых реализованы настраиваемые поля.',
+);

@@ -1,0 +1,18 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_FIELDS_NUMBER' => 'Поля - Число',
+  'PLG_FIELDS_NUMBER_LABEL' => 'Число (%s)',
+  'PLG_FIELDS_NUMBER_PARAMS_CURRENCY_LABEL' => 'Использовать как валюту',
+  'PLG_FIELDS_NUMBER_PARAMS_DECIMALS_LABEL' => 'Кол-во десятичных знаков',
+  'PLG_FIELDS_NUMBER_PARAMS_MAX_DESC' => 'Введите максимальное числовое значение.',
+  'PLG_FIELDS_NUMBER_PARAMS_MAX_LABEL' => 'Максимальное значение',
+  'PLG_FIELDS_NUMBER_PARAMS_MIN_DESC' => 'Введите минимальное числовое значение.',
+  'PLG_FIELDS_NUMBER_PARAMS_MIN_LABEL' => 'Минимальное значение',
+  'PLG_FIELDS_NUMBER_PARAMS_POSITION_LABEL' => 'Позиция символа',
+  'PLG_FIELDS_NUMBER_PARAMS_POSITION_OPTION_AFTER' => 'После значения',
+  'PLG_FIELDS_NUMBER_PARAMS_POSITION_OPTION_BEFORE' => 'До значения',
+  'PLG_FIELDS_NUMBER_PARAMS_STEP_LABEL' => 'Шаг изменения',
+  'PLG_FIELDS_NUMBER_PARAMS_SYMBOL_LABEL' => 'Символ валюты',
+  'PLG_FIELDS_NUMBER_XML_DESCRIPTION' => 'Плагин для создания полей типа <strong>Число</strong> в расширениях, в которых реализованы настраиваемые поля.',
+);

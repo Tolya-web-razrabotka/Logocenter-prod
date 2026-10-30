@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site" method="upgrade">
+	<name>logocenter</name>
+	<version>1.0.3</version>
+	<creationDate>2026-10</creationDate>
+	<author>Логоцентр</author>
+	<description>Шаблон сайта «Логоцентр»</description>
+
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+
+	<media destination="templates/site/logocenter" folder="media">
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+		<folder>fonts</folder>
+	</media>
+
+	<positions>
+		<position>header</position>
+		<position>main-top</position>
+		<position>breadcrumbs</position>
+		<position>main-bottom</position>
+		<position>footer</position>
+		<position>float</position>
+		<position>modal</position>
+	</positions>
+
+	<config>
+		<fields name="params">
+			<fieldset name="contacts" label="Контакты сайта">
+				<field
+					name="phone"
+					type="text"
+					label="Телефон"
+					description="Как показывать на сайте, например: +7 930 707 77 55"
+					default="+7 930 707 77 55"
+				/>
+				<field
+					name="email"
+					type="email"
+					label="E-mail"
+					default="tklogocentr@mail.ru"
+				/>
+				<field
+					name="address"
+					type="textarea"
+					label="Адрес"
+					description="Перенос строки в поле = перенос строки на сайте"
+					rows="3"
+					default="Г. Нижний Новгород,&#10;ул. Бурнаковская, д.3"
+				/>
+				<field
+					name="vk"
+					type="url"
+					label="Ссылка ВКонтакте"
+					description="Полная ссылка, начиная с https://"
+					default=""
+				/>
+				<field
+					name="max"
+					type="url"
+					label="Ссылка MAX"
+					description="Полная ссылка, начиная с https://"
+					default=""
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

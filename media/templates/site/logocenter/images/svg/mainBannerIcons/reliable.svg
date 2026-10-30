@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<path id="shield_reliable" d="M15.0626 0.565C15.6688 0.343 16.3312 0.343 16.9374 0.565L27.9374 4.594C29.1373 5.034 29.9375 6.176 29.9375 7.454V14.906C29.9375 22.282 25.1557 28.302 17.3427 31.454C16.4807 31.802 15.5193 31.802 14.6573 31.454C6.8443 28.302 2.0625 22.282 2.0625 14.906V7.454C2.0625 6.176 2.8627 5.034 4.0626 4.594L15.0626 0.565Z"/>
+<mask id="mask_reliable" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+<rect width="32" height="32" fill="white"/>
+<use href="#shield_reliable" transform="translate(16 16) scale(.74) translate(-16 -16)" stroke="black" stroke-width="2.2"/>
+<path d="M10.9 16.1L14.3 19.5L21.1 12.6" stroke="black" stroke-width="2.9" stroke-linecap="round" stroke-linejoin="round"/>
+</mask>
+</defs>
+<use href="#shield_reliable" fill="white" mask="url(#mask_reliable)"/>
+</svg>

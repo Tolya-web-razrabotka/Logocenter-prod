@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="basic">
+        
+        <field name="layout" type="NRImagesSelector"
+            images='[
+                {
+                    "key": "list",
+                    "label": "COM_CONVERTFORMS_LIST",
+                    "url": "{{SITE_URL}}media/com_convertforms/img/fileupload/list.svg"
+                },
+                {
+                    "key": "thumbnail",
+                    "label": "COM_CONVERTFORMS_THUMBNAILS",
+                    "url": "{{SITE_URL}}media/com_convertforms/img/fileupload/thumbnails.svg"
+                }
+            ]'
+            columns="3"
+            item_gap="8px"
+            key_type="filename"
+            label="NR_LAYOUT"
+            description="COM_CONVERTFORMS_FILE_UPLOAD_LAYOUT_DESC"
+            default="list"
+            mode="links"
+            pro_items="thumbnails.svg"
+        />
+        
+        
+        
+        <field name="upload_storage" type="hidden" default="public" />
+        
+        
+        <field name="upload_folder_type" type="list"
+            label="COM_CONVERTFORMS_FILEUPLOAD_FOLDER_TYPE"
+            description="COM_CONVERTFORMS_FILEUPLOAD_FOLDER_TYPE_DESC"
+            default="auto">
+                <option value="auto">NR_AUTO</option>
+                <option value="custom">NR_CUSTOM</option>
+        </field>
+        <field name="upload_folder" type="text"
+            label="COM_CONVERTFORMS_FILEUPLOAD_FOLDER"
+            description="COM_CONVERTFORMS_FILEUPLOAD_FOLDER_DESC"
+            hint="media/com_convertforms/uploads"
+            class="show-smart-tags"
+            showon="upload_storage:public[AND]upload_folder_type:custom"
+        />
+        
+        
+        <field name="max_file_size" type="nrnumber"
+            label="COM_CONVERTFORMS_FILEUPLOAD_MAX_FILE_SIZE"
+            description="COM_CONVERTFORMS_FILEUPLOAD_MAX_FILE_SIZE_DESC"
+            addon="MB"
+            min="0"
+            default="0"
+        />
+        <field name="upload_types" type="text"
+            label="COM_CONVERTFORMS_FILEUPLOAD_UPLOAD_TYPES"
+            description="COM_CONVERTFORMS_FILEUPLOAD_UPLOAD_TYPES_DESC"
+            hint=".jpg, .png, .gif"
+            default=".jpg, .png, .gif"
+        />
+        <field name="resizeimages" type="TFImageDimensionsControl"
+            label="COM_CONVERTFORMS_RESIZE_IMAGES"
+            description="COM_CONVERTFORMS_RESIZE_IMAGES_DESC"
+        />
+        <field name="allow_unsafe" type="nrtoggle"
+            label="COM_CONVERTFORMS_UPLOAD_ALLOW_UNSAFE"
+            description="COM_CONVERTFORMS_UPLOAD_ALLOW_UNSAFE_DESC"
+        />
+        
+        
+        <field name="@limit_files" type="nr_pro"
+            label="COM_CONVERTFORMS_FILEUPLOAD_LIMIT_FILES"
+            description="COM_CONVERTFORMS_FILEUPLOAD_LIMIT_FILES_DESC"
+        />
+        <field name="@resizeimages" type="nr_pro"
+            label="COM_CONVERTFORMS_RESIZE_IMAGES"
+            description="COM_CONVERTFORMS_RESIZE_IMAGES_DESC"
+        />
+        <field name="@auto_delete_files" type="nr_pro"
+            label="COM_CONVERTFORMS_UPLOAD_AUTO_DELETE"
+            description="COM_CONVERTFORMS_UPLOAD_AUTO_DELETE_DESC"
+        />
+        <field name="@upload_storage" type="nr_pro"
+            label="COM_CONVERTFORMS_FILEUPLOAD_STORAGE"
+            description="COM_CONVERTFORMS_FILEUPLOAD_STORAGE_DESC"
+        />
+        <field name="@external_upload_subfolder" type="nr_pro"
+            label="COM_CONVERTFORMS_FILEUPLOAD_EXTERNAL_SUBFOLDER"
+            description="COM_CONVERTFORMS_FILEUPLOAD_EXTERNAL_SUBFOLDER_DESC"
+        />
+        <field name="@download_access" type="nr_pro"
+            label="COM_CONVERTFORMS_FILEUPLOAD_DOWNLOAD_ACCESS"
+            description="COM_CONVERTFORMS_FILEUPLOAD_DOWNLOAD_ACCESS_DESC"
+        />
+        
+    </fieldset>
+</form>

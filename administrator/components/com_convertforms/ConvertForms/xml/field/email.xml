@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="restrictions">
+        <field name="readonly" type="nrtoggle"
+            label="COM_CONVERTFORMS_READONLY"
+            description="COM_CONVERTFORMS_READONLY_DESC"
+		/>
+        <field name="dont_store_in_db" type="nrtoggle" 
+            label="Do not store in the database"
+            description="Enable this option if you want to prevent this field’s value from being saved in form submissions. The value will still be available for email notifications and integrations."
+		/>
+    </fieldset>
+    <fieldset name="basic">
+        <field name="dnscheck" type="nrtoggle" 
+            label="COM_CONVERTFORMS_FIELD_EMAIL_DNSCHECK"
+            description="COM_CONVERTFORMS_FIELD_EMAIL_DNSCHECK_DESC"
+        />
+    </fieldset>
+</form>

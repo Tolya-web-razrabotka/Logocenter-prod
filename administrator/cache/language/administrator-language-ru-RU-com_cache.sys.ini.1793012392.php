@@ -1,0 +1,10 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'COM_CACHE' => 'Кэширование',
+  'COM_CACHE_CACHE_VIEW_DEFAULT_DESC' => 'Отображение страницы для очистки кэша',
+  'COM_CACHE_CACHE_VIEW_DEFAULT_TITLE' => 'Очистить кэш',
+  'COM_CACHE_PURGE_VIEW_DEFAULT_DESC' => 'Отображение страницы для очистки устаревшего кэша',
+  'COM_CACHE_PURGE_VIEW_DEFAULT_TITLE' => 'Очистить устаревший кэш',
+  'COM_CACHE_XML_DESCRIPTION' => 'Компонент для управления группами кэша.',
+);

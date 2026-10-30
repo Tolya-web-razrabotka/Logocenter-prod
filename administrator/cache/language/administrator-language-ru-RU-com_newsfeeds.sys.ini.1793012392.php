@@ -1,0 +1,21 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'COM_NEWSFEEDS' => 'Ленты новостей',
+  'COM_NEWSFEEDS_CATEGORIES' => 'Категории',
+  'COM_NEWSFEEDS_CATEGORIES_VIEW_DEFAULT_DESC' => 'Отображение списка категорий лент новостей',
+  'COM_NEWSFEEDS_CATEGORIES_VIEW_DEFAULT_OPTION' => 'По умолчанию',
+  'COM_NEWSFEEDS_CATEGORIES_VIEW_DEFAULT_TITLE' => 'Категории',
+  'COM_NEWSFEEDS_CATEGORY_VIEW_DEFAULT_DESC' => 'Отображение списка лент новостей из определенной категории',
+  'COM_NEWSFEEDS_CATEGORY_VIEW_DEFAULT_OPTION' => 'По умолчанию',
+  'COM_NEWSFEEDS_CATEGORY_VIEW_DEFAULT_TITLE' => 'Ленты новостей',
+  'COM_NEWSFEEDS_CONTENT_TYPE_CATEGORY' => 'Категория лент новостей',
+  'COM_NEWSFEEDS_CONTENT_TYPE_NEWSFEED' => 'Лента новостей',
+  'COM_NEWSFEEDS_FEEDS' => 'Ленты новостей',
+  'COM_NEWSFEEDS_NEWSFEED_VIEW_DEFAULT_DESC' => 'Отображение определенной ленты новостей',
+  'COM_NEWSFEEDS_NEWSFEED_VIEW_DEFAULT_OPTION' => 'По умолчанию',
+  'COM_NEWSFEEDS_NEWSFEED_VIEW_DEFAULT_TITLE' => 'Лента новостей',
+  'COM_NEWSFEEDS_TAGS_CATEGORY' => 'Категория лент новостей',
+  'COM_NEWSFEEDS_TAGS_NEWSFEED' => 'Лента новостей',
+  'COM_NEWSFEEDS_XML_DESCRIPTION' => 'Компонент для управления лентами новостей в формате RSS/RDF/Atom по ссылке.',
+);

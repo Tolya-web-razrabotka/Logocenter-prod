@@ -1,0 +1,2 @@
+var TF_File_Upload_Initiator=function(){function o(){this.initFileUploads()}return o.prototype.initFileUploads=function(){var o;"undefined"!=typeof Dropzone&&(Dropzone.autoDiscover=!1,(o=document.querySelectorAll(".tf-file-upload-editor")).length)&&o.forEach(function(o){new window.TF_File_Upload_Class(o)})},o}();document.addEventListener("DOMContentLoaded",function(){new TF_File_Upload_Initiator});
+

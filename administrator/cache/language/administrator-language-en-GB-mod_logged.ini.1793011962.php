@@ -1,0 +1,13 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'MOD_LOGGED' => 'Logged-in Users',
+  'MOD_LOGGED_FIELD_COUNT_LABEL' => 'Users to Display',
+  'MOD_LOGGED_LOGOUT' => 'Logout',
+  'MOD_LOGGED_NAME' => 'Name',
+  'MOD_LOGGED_NO_SESSION_METADATA' => 'Session metadata is disabled, cannot display the list of logged-in users.',
+  'MOD_LOGGED_TITLE' => 'Last Logged-in Users',
+  'MOD_LOGGED_TITLE_1' => 'Last Logged-in User',
+  'MOD_LOGGED_TITLE_MORE' => 'Last %d Logged-in Users',
+  'MOD_LOGGED_XML_DESCRIPTION' => 'This module shows a list of the Logged-in Users.',
+);

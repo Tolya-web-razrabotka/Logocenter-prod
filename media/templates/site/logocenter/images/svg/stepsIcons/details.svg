@@ -1,0 +1,24 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="&#208;&#147;&#208;&#187;&#208;&#176;&#208;&#178;&#208;&#189;&#208;&#176;&#209;&#143;">
+<g id="Frame">
+<g id="Group">
+<g id="Clip path group">
+<mask id="mask0_15928_313" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+<g id="a">
+<path id="Vector" d="M31 31V1H1V31H31Z" fill="white" stroke="white" stroke-width="2"/>
+</g>
+</mask>
+<g mask="url(#mask0_15928_313)">
+<g id="Group_2">
+<path id="Vector_2" d="M31.0624 11.3125V28.1875L27.3124 24.4375H10.375C9.3395 24.4375 8.5 23.598 8.5 22.5625V11.3125C8.5 10.2771 9.3395 9.43755 10.375 9.43755H29.1874C30.2229 9.43755 31.0624 10.2771 31.0624 11.3125Z" stroke="#00091D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M23.5624 9.43754V5.68755C23.5624 4.65205 22.7229 3.81255 21.6874 3.81255H2.81249C1.777 3.81255 0.9375 4.65205 0.9375 5.68755V22.5625L4.68749 18.8125H8.49998" stroke="#00091D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M16 13.1875H23.5625" stroke="#00091D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M14.125 16.9375H25.4375" stroke="#00091D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M16 20.6875H23.5625" stroke="#00091D" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_FIELDS_NOTE' => 'Поля - Примечание',
+  'PLG_FIELDS_NOTE_LABEL' => 'Примечание (%s)',
+  'PLG_FIELDS_NOTE_PARAMS_CLASS_DESC' => 'Введите CSS-класс поля для отображения в панели управления и на сайте (если при создании или редактировании поля типа <strong>Примечание</strong> включен параметр <strong>Показывать на сайте</strong>).',
+  'PLG_FIELDS_NOTE_PARAMS_CLASS_LABEL' => 'CSS-класс',
+  'PLG_FIELDS_NOTE_PARAMS_CLOSE_DESC' => 'Введите значение для отображения кнопки "X" (закрыть): <strong>true</strong> или значение для атрибута <strong>data-dismiss</strong> (Bootstrap).',
+  'PLG_FIELDS_NOTE_PARAMS_CLOSE_LABEL' => 'Кнопка "X" (закрыть)',
+  'PLG_FIELDS_NOTE_PARAMS_DESCRIPTION_LABEL' => 'Описание',
+  'PLG_FIELDS_NOTE_PARAMS_DISPLAY_FRONTEND_LABEL' => 'Показывать на сайте',
+  'PLG_FIELDS_NOTE_PARAMS_HEADING_LABEL' => 'HTML-тег заголовка',
+  'PLG_FIELDS_NOTE_PARAMS_LABEL_LABEL' => 'Заголовок',
+  'PLG_FIELDS_NOTE_XML_DESCRIPTION' => 'Плагин для создания полей типа <strong>Примечание</strong> в расширениях, в которых реализованы настраиваемые поля.',
+);

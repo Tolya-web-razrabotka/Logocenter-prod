@@ -1,0 +1,2 @@
+((e,t)=>{e.ConvertFormsInitCloudflareTurnstile=function(){t.querySelectorAll(".cf-turnstile").forEach(function(e){var t=e.closest(".convertforms"),n=turnstile.render(e);e.setAttribute("data-turnstile-widget-id",n),t.addEventListener("beforeSubmit",function(e){e.defaultPrevented||0<turnstile.getResponse(n).length||(e.preventDefault(),turnstile.execute(n))}),t.addEventListener("afterSubmit",function(e){turnstile.reset(n)})})}})(window,document);
+

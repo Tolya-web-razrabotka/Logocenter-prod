@@ -1,0 +1,13 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_QUICKICON_EXTENSIONUPDATE' => 'Quick Icon - Joomla! Extensions Updates Notification',
+  'PLG_QUICKICON_EXTENSIONUPDATE_CHECKING' => 'Checking extensions &hellip;',
+  'PLG_QUICKICON_EXTENSIONUPDATE_ERROR' => 'Unknown extensions &hellip;',
+  'PLG_QUICKICON_EXTENSIONUPDATE_GROUP_DESC' => 'The group of this plugin (this value is compared with the group value used in <strong>Quick Icons</strong> modules to inject icons).',
+  'PLG_QUICKICON_EXTENSIONUPDATE_GROUP_LABEL' => 'Group',
+  'PLG_QUICKICON_EXTENSIONUPDATE_SECURITY_UPDATEFOUND' => '* Security update is available for %s!',
+  'PLG_QUICKICON_EXTENSIONUPDATE_UPDATEFOUND' => 'Updates are available! %s',
+  'PLG_QUICKICON_EXTENSIONUPDATE_UPTODATE' => 'Extensions are up to date.',
+  'PLG_QUICKICON_EXTENSIONUPDATE_XML_DESCRIPTION' => 'Checks for updates of your installed third-party extensions and notifies you when you visit the Home Dashboard page.',
+);

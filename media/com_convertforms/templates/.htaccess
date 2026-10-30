@@ -1,0 +1,14 @@
+
+			# Block direct access to any PHP executable file type.
+			# Matches php, php3..php9, phps, pht, phtml, phtm, phar and inc case-insensitively.
+			# The trailing (\.|$) also catches the token in any position (shell.php.jpg,
+			# shell.php.), closing the AddHandler multi-extension bypass, not just names ending in it.
+			<FilesMatch "(?i)\.(php|php[0-9]|phps|pht|phtml|phtm|phar|inc)(\.|$)">
+				<IfModule !mod_authz_core.c>
+					Deny from all
+				</IfModule>
+				<IfModule mod_authz_core.c>
+					Require all denied
+				</IfModule>
+			</FilesMatch>
+		

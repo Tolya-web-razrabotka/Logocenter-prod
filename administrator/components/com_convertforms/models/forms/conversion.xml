@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="main" addfieldpath="administrator/components/com_convertforms/models/forms/fields">
+        <field name="state" type="list"
+            label="JSTATUS"
+            class="chzn-color-state"
+            size="1"
+            default="1">
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+            <option value="2">JARCHIVED</option>
+            <option value="-2">JTRASHED</option>
+        </field>
+        <field name="id" type="hidden" default="0" />
+    </fieldset>
+    <fieldset name="account">
+        <field name="user_id" type="user"
+            label="COM_CONVERTFORMS_ASSIGN_JOOMLA_USER"
+        />
+    </fieldset>
+    <fieldset name="notes">
+        <fields name="params">
+            <field name="leadnotes" type="textarea"
+                label="COM_CONVERTFORMS_NOTES"
+                rows="10"
+                class="span12"
+                hint="COM_CONVERTFORMS_NOTES_HINT"
+                hiddenLabel="true"
+            />
+        </fields>
+    </fieldset>
+    <fieldset name="params" addfieldpath='/plugins/system/nrframework/fields'>
+        <field name="params"
+            type="hidden"
+            filter="safehtml"
+        />
+    </fieldset>
+</form>

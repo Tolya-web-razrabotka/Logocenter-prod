@@ -1,0 +1,14 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_QUICKICON_AUTOUPDATE' => 'Панель иконок - Проверка состояния автообновления',
+  'PLG_QUICKICON_AUTOUPDATE_CHECKING' => 'Проверка автообновления...',
+  'PLG_QUICKICON_AUTOUPDATE_DISABLED' => 'Автообновление отключено',
+  'PLG_QUICKICON_AUTOUPDATE_ERROR' => 'Не удалось проверить состояние автообновления',
+  'PLG_QUICKICON_AUTOUPDATE_GROUP_DESC' => 'Введите имя группы для отображения уведомлений плагина в панели быстрого доступа (значение параметра сравнивается со значением в модуле <strong>Панель быстрого доступа</strong>).',
+  'PLG_QUICKICON_AUTOUPDATE_GROUP_LABEL' => 'Имя группы',
+  'PLG_QUICKICON_AUTOUPDATE_OK' => 'Автообновление включено',
+  'PLG_QUICKICON_AUTOUPDATE_OUTDATED' => 'Соединение прервано',
+  'PLG_QUICKICON_AUTOUPDATE_UNAVAILABLE' => 'Автообновление недоступно',
+  'PLG_QUICKICON_AUTOUPDATE_XML_DESCRIPTION' => 'Плагин для проверки состояния автообновления и отображения уведомления в панели управления.',
+);

@@ -1,0 +1,14 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'MOD_LATESTACTIONS' => 'Лог действий пользователей',
+  'MOD_LATESTACTIONS_ACTION' => 'Действие',
+  'MOD_LATESTACTIONS_FIELD_COUNT_LABEL' => 'Количество записей',
+  'MOD_LATESTACTIONS_LAYOUT_DEFAULT' => 'По умолчанию',
+  'MOD_LATESTACTIONS_NO_MATCHING_RESULTS' => 'Ничего не найдено.',
+  'MOD_LATESTACTIONS_TITLE_0' => 'Лог действий пользователей',
+  'MOD_LATESTACTIONS_TITLE_1' => 'Последнее %d действие пользователя',
+  'MOD_LATESTACTIONS_TITLE_2' => 'Последние %d действия пользователей',
+  'MOD_LATESTACTIONS_TITLE_MORE' => 'Последние %d действий пользователей',
+  'MOD_LATESTACTIONS_XML_DESCRIPTION' => 'Модуль для отображения лога действий пользователей на сайте.',
+);

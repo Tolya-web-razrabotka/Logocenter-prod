@@ -1,0 +1,19 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_TASK_SITE_STATUS' => 'Задача - Переключение состояния сайта',
+  'PLG_TASK_SITE_STATUS_DESC' => 'Задача для переключения состояния сайта при запуске сценария.',
+  'PLG_TASK_SITE_STATUS_ERROR_CONFIGURATION_PHP_NOTUNWRITABLE' => 'Не удалось преобразовать файл configuration.php в недоступное для записи состояние.',
+  'PLG_TASK_SITE_STATUS_ERROR_CONFIGURATION_PHP_NOTWRITABLE' => 'Не удалось преобразовать файл configuration.php в доступное для записи состояние.',
+  'PLG_TASK_SITE_STATUS_ERROR_WRITE_FAILED' => 'Не удалось выполнить запись в файл конфигурации.',
+  'PLG_TASK_SITE_STATUS_ROUTINE_END_LOG_MESSAGE' => 'Код ответа при переключении состояния сайта: %1$d. Время обработки: %2$.2f секунд',
+  'PLG_TASK_SITE_STATUS_TASK_LOG_SITE_STATUS' => 'Предыдущее состояние сайта: %1$s. Новое состояние: %2$s',
+  'PLG_TASK_SITE_STATUS_SET_OFFLINE_DESC' => 'Задача для выключения сайта при запуске сценария.',
+  'PLG_TASK_SITE_STATUS_SET_OFFLINE_ROUTINE_END_LOG_MESSAGE' => 'Код ответа при выключении сайта: %1$d. Время обработки: %2$.2f секунд',
+  'PLG_TASK_SITE_STATUS_SET_OFFLINE_TITLE' => 'Выключение сайта',
+  'PLG_TASK_SITE_STATUS_SET_ONLINE_DESC' => 'Задача для включения сайта при запуске сценария.',
+  'PLG_TASK_SITE_STATUS_SET_ONLINE_ROUTINE_END_LOG_MESSAGE' => 'Код ответа при включении сайта: %1$d. Время обработки: %2$.2f секунд',
+  'PLG_TASK_SITE_STATUS_SET_ONLINE_TITLE' => 'Включение сайта',
+  'PLG_TASK_SITE_STATUS_TITLE' => 'Переключение состояния сайта',
+  'PLG_TASK_SITE_STATUS_XML_DESCRIPTION' => 'Плагин для выключения, включения или переключения состояния сайта.',
+);

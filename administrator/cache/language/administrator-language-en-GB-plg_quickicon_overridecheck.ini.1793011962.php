@@ -1,0 +1,13 @@
+<?php
+defined('_JEXEC') or die;
+return array (
+  'PLG_QUICKICON_OVERRIDECHECK' => 'Quick Icon - Joomla! Overrides Update Notification',
+  'PLG_QUICKICON_OVERRIDECHECK_CHECKING' => 'Checking overrides &hellip;',
+  'PLG_QUICKICON_OVERRIDECHECK_ERROR' => 'Error on checking overrides.',
+  'PLG_QUICKICON_OVERRIDECHECK_ERROR_ENABLE' => 'Enable <strong>Installer - override</strong> plugin.',
+  'PLG_QUICKICON_OVERRIDECHECK_GROUP_DESC' => 'The group of this plugin (this value is compared with the group value used in <strong>Quick Icons</strong> modules to inject icons).',
+  'PLG_QUICKICON_OVERRIDECHECK_GROUP_LABEL' => 'Group',
+  'PLG_QUICKICON_OVERRIDECHECK_OVERRIDEFOUND' => 'Override(s) to check! %s',
+  'PLG_QUICKICON_OVERRIDECHECK_UPTODATE' => 'Overrides are up to date.',
+  'PLG_QUICKICON_OVERRIDECHECK_XML_DESCRIPTION' => '<p>Checks overrides on update and enables notifications when you visit the Home Dashboard page.</p><p><strong>Warning! You must have installer override plugin enabled to see results.</strong></p>',
+);
